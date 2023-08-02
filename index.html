@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <title>
+      Frontend Mentor | Newsletter sign-up form with success message
+    </title>
+  </head>
+  <body>
+    <div id="parent">
+      <div class="container">
+        <div class="left-div">
+          <h1 class="header">Stay updated!</h1>
+          <p class="par">
+            Join 60,000+ product managers receiving monthly updates on:
+          </p>
+          <div class="list">
+            <ul class="list-ul">
+              <li class="lis">
+                <img src="assets/images/icon-list.svg" alt="" />
+                <span class="list-text"
+                  >Product discovery and building what matters</span
+                >
+              </li>
+              <li class="lis">
+                <img src="assets/images/icon-list.svg" alt="" />
+                <span class="list-text"
+                  >Measuring to ensure updates are a success</span
+                >
+              </li>
+              <li class="lis">
+                <img src="assets/images/icon-list.svg" alt="" />
+                <span class="list-text">And much more!</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="email-adress-div">
+            <div class="for-error">
+              <label for="email" class="label-of-email">Email address</label>
+              <span class="error-label hidden">Valid email required</span>
+            </div>
+            <input type="email" id="email" placeholder="email@company.com"/>
+            <button class="btn-sub">Subscribe to monthly newsletter</button>
+          </div>
+        </div>
+        <img src="assets/images/illustration-sign-up-desktop.svg" alt="" />
+      </div>
+      <div class="success-mesage-card hidden">
+        <img class="success-icon" src="assets/images/icon-success.svg" alt="" />
+        <h1 class="success-header">Thanks for subscribing!</h1>
+        <p class="success-par">
+          A confirmation email has been sent to
+          <span class="last-email">ash@loremcompany.com</span> . Please open it
+          and click the button inside to confirm your subscription.
+        </p>
+        <button class="dismiss-btn">Dismiss message</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

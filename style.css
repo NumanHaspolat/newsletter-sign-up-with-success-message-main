@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: hsl(235, 18%, 26%);
+}
+
+#parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: white;
+  display: flex;
+  border-radius: 2rem;
+  padding: 1.5rem;
+  margin: 1rem;
+}
+
+.left-div {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  padding-left: 1.5rem;
+  margin-right: 5rem;
+  width: 380px;
+}
+
+.for-error {
+  display: flex;
+  justify-content: space-between;
+}
+
+.error-label {
+  color: hsl(4, 100%, 61%);
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.header {
+  font-size: 3rem;
+  color: hsl(234, 29%, 20%);
+}
+
+.par {
+  color: hsl(234, 29%, 20%);
+}
+
+li {
+  list-style-type: none;
+}
+
+.email-adress-div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.label-of-email {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+#email {
+  border: 0.5px solid rgba(0, 0, 0, 0.25);
+  padding: 1.1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 0.7rem;
+}
+
+.btn-sub {
+  border: none;
+  background-color: hsl(234, 29%, 20%);
+  color: white;
+  font-weight: 700;
+  padding: 1.2rem;
+  border-radius: 0.5rem;
+}
+
+.btn-sub:hover {
+  cursor: pointer;
+}
+.btn-sub:active {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 160, 1) 0%,
+    rgba(252, 151, 69, 1) 52%
+  );
+  box-shadow: rgba(255, 0, 149, 0.3) 0px 20px 30px -10px;
+}
+
+.par {
+  font-size: 16px;
+}
+
+.list-text {
+  margin-left: 0.5rem;
+}
+
+.lis {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.9rem;
+  color: hsl(234, 29%, 20%);
+  gap: 0.7rem;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.success-mesage-card {
+  background-color: white;
+  width: 480px;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-radius: 2rem;
+}
+
+.success-icon {
+  width: 65px;
+  height: 63px;
+}
+
+.success-header {
+  color: hsl(234, 29%, 20%);
+  font-size: 3rem;
+}
+
+.last-email {
+  font-weight: 700;
+  color: hsl(234, 29%, 20%);
+}
+
+.success-par {
+  line-height: 1.55rem;
+}
+
+.dismiss-btn {
+  border: none;
+  background-color: hsl(234, 29%, 20%);
+  color: white;
+  padding: 1.3rem;
+  border-radius: 0.6rem;
+}
+
+.dismiss-btn:hover {
+  cursor: pointer;
+}
+.dismiss-btn:active {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 160, 1) 0%,
+    rgba(252, 151, 69, 1) 52%
+  );
+  box-shadow: rgba(255, 0, 149, 0.3) 0px 20px 30px -10px;
+}
+
+.hidden {
+  display: none;
+}
